@@ -3,3 +3,8 @@ export { default as SessionsIcon } from "./sessionsIcon";
 export { default as MessagesIcon } from "./messagesIcon";
 export { default as CommunityIcon } from "./communityIcon";
 export { default as NatificationIcon } from "./notificationIcon";
+export { default as HappyIcon } from "./happyIcon";
+export { default as CalmIcon } from "./calmIcon";
+export { default as ManicIcon } from "./manicIcon";
+export { default as AngryIcon } from "./angryIcon";
+export { default as SadIcon } from "./sadIcon";
