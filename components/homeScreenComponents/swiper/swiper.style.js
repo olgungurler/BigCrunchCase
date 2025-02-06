@@ -3,6 +3,7 @@ import { StyleSheet } from "react-native";
 const SwiperStyles = StyleSheet.create({
   container: {
     position: "relative",
+    marginBottom: 26,
   },
   title: {
     fontSize: 16,
@@ -16,7 +17,7 @@ const SwiperStyles = StyleSheet.create({
   },
   fellingWrapper: (isEnd) => ({
     alignItems: "center",
-    paddingRight: isEnd ? 24 : 0,
+    paddingRight: isEnd ? 25 : 0,
     marginRight: 24,
   }),
   fellingIconWrapper: {

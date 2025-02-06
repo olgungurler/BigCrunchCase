@@ -1,9 +1,26 @@
-import { View, Text } from "react-native";
+import { View, ScrollView, StyleSheet } from "react-native";
+import { UpComingSessionCard } from "../../components";
 
 export default function SessionsScreen() {
   return (
-    <View style={{ flex: 1, backgroundColor: "blue" }}>
-      <Text>BU BİR HAKKIMIZDA SAYFASI</Text>
-    </View>
+    <ScrollView
+      showsVerticalScrollIndicator={false}
+      style={styles.scrollContainer}
+    >
+      <View style={styles.container}>
+        <UpComingSessionCard />
+      </View>
+    </ScrollView>
   );
 }
+
+const styles = StyleSheet.create({
+  scrollContainer: {
+    flexGrow: 1,
+    backgroundColor: "#FBFBFB",
+  },
+  container: {
+    flex: 1,
+    paddingHorizontal: 25,
+  },
+});
