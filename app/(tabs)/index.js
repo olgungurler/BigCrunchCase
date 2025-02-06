@@ -14,15 +14,14 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
+    paddingHorizontal: 25,
     backgroundColor: "#FBFBFB",
   },
   bold: {
     fontWeight: "bold",
   },
   welcomeMesageTitle: {
-    paddingHorizontal: 5,
-    paddingVertical: 20,
+    paddingBottom: 26,
   },
   welcomeMessageText: {
     fontSize: 26,
