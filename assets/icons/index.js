@@ -14,3 +14,5 @@ export { default as CalendarIcon } from "./calendarIcon";
 export { default as JournalIcon } from "./journalIcon";
 export { default as LibraryIcon } from "./libraryIcon";
 export { default as QuoteIcon } from "./quoteIcon";
+export { default as MeditationIcon } from "./meditationIcon";
+export { default as RightArrowIcon } from "./rightArrowIcon";
