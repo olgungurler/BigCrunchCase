@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet, ScrollView } from "react-native";
-import { Swiper, Card, SessionBookingCard } from "../../components";
+import { Swiper, Card, SessionBookingCard, Grid } from "../../components";
 
 export default function HomeScreen() {
   return (
@@ -13,6 +13,7 @@ export default function HomeScreen() {
         <Card>
           <SessionBookingCard />
         </Card>
+        <Grid />
       </View>
     </ScrollView>
   );
