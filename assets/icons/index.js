@@ -17,3 +17,6 @@ export { default as QuoteIcon } from "./quoteIcon";
 export { default as MeditationIcon } from "./meditationIcon";
 export { default as RightArrowIcon } from "./rightArrowIcon";
 export { default as PlayIcon } from "./playIcon";
+export { default as ArrowDownIcon } from "./arrowDownIcon";
+export { default as SortIcon } from "./sortIcon";
+export { default as ClockIcon } from "./clockIcon";
