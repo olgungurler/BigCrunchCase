@@ -2,7 +2,6 @@ import { StyleSheet } from "react-native";
 
 const GridStyles = StyleSheet.create({
   container: {
-   marginBottom: 26,
    gap: 15,
   },
   btnWrapper: {
@@ -42,6 +41,7 @@ const GridStyles = StyleSheet.create({
     fontFamily: "Epelogue",
     fontWeight: "regular",
     color: "#707070",
+    paddingRight: 10,
   }
 });
 
