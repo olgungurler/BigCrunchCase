@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 
 const CardStyles = StyleSheet.create({
-  container: (color) => ({
+  container: (color, borderWidth) => ({
     position: "relative",
     marginBottom: 26,
     backgroundColor: color,
@@ -10,6 +10,8 @@ const CardStyles = StyleSheet.create({
     alignItems: "flex-start",
     justifyContent: "center",
     overflow: "hidden",
+    borderWidth: borderWidth,
+    borderColor: "#F4F4F4",
   }),
   svgContainer: {
     position: "absolute",

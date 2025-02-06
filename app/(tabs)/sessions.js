@@ -1,5 +1,5 @@
 import { View, ScrollView, StyleSheet } from "react-native";
-import { UpComingSessionCard } from "../../components";
+import { SessionsList, UpComingSessionCard } from "../../components";
 
 export default function SessionsScreen() {
   return (
@@ -9,6 +9,7 @@ export default function SessionsScreen() {
     >
       <View style={styles.container}>
         <UpComingSessionCard />
+        <SessionsList />
       </View>
     </ScrollView>
   );
