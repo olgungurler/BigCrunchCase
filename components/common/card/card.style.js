@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const CardStyles = StyleSheet.create({
   container: (color) => ({
     position: "relative",
-    marginVertical: 24,
+    marginBottom: 26,
     backgroundColor: color,
     borderRadius: 16,
     padding: 24,

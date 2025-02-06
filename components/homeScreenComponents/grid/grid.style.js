@@ -3,6 +3,7 @@ import { StyleSheet } from "react-native";
 const GridStyles = StyleSheet.create({
   container: {
    gap: 15,
+   marginBottom: 26,
   },
   btnWrapper: {
     flexDirection: "row",
