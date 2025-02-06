@@ -1,21 +1,28 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, ScrollView } from "react-native";
+import { Swiper } from "../../components/homeScreenComponents";
 
 export default function HomeScreen() {
   return (
-    <View style={styles.container}>
-      <View style={styles.welcomeMesageTitle}>
-        <Text style={styles.welcomeMessageText}>Good Afternoon,</Text>
-        <Text style={[styles.welcomeMessageText, styles.bold]}>Sarina!</Text>
+    <ScrollView style={styles.scrollContainer}>
+      <View style={styles.container}>
+        <View style={styles.welcomeMesageTitle}>
+          <Text style={styles.welcomeMessageText}>Good Afternoon,</Text>
+          <Text style={[styles.welcomeMessageText, styles.bold]}>Sarina!</Text>
+        </View>
+        <Swiper />
       </View>
-    </View>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
+  scrollContainer: {
+    flexGrow: 1,
+    backgroundColor: "#FBFBFB",
+  },
   container: {
     flex: 1,
     paddingHorizontal: 25,
-    backgroundColor: "#FBFBFB",
   },
   bold: {
     fontWeight: "bold",
