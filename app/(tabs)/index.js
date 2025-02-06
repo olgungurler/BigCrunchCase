@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet, ScrollView } from "react-native";
-import { Swiper } from "../../components/homeScreenComponents";
+import { Swiper } from "../../components";
 
 export default function HomeScreen() {
   return (
