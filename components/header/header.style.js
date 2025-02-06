@@ -22,8 +22,8 @@ const HeaderStyles = StyleSheet.create({
   },
   badge: {
     position: "absolute",
-    top: -5,
-    right: -10,
+    top: -8,
+    right: -13,
     backgroundColor: "#FE8235",
     width: 21,
     height: 21,
