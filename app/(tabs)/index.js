@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet, ScrollView } from "react-native";
-import { Swiper } from "../../components";
+import { Swiper, Card, SessionBookingCard } from "../../components";
 
 export default function HomeScreen() {
   return (
@@ -10,6 +10,9 @@ export default function HomeScreen() {
           <Text style={[styles.welcomeMessageText, styles.bold]}>Sarina!</Text>
         </View>
         <Swiper />
+        <Card>
+          <SessionBookingCard />
+        </Card>
       </View>
     </ScrollView>
   );
