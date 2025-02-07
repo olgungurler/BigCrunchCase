@@ -10,8 +10,7 @@ const SessionBookingCardStyles = StyleSheet.create({
   },
   title: {
     fontSize: 22,
-    fontFamily: "Epelogue",
-    fontWeight: "bold",
+    fontFamily: "EpilogueExtraBold",
     color: "#573926",
     marginBottom: 8,
   },
@@ -28,8 +27,7 @@ const SessionBookingCardStyles = StyleSheet.create({
   },
   bookNowText: {
     fontSize: 16,
-    fontFamily: "Epelogue",
-    fontWeight: "bold",
+    fontFamily: "EpilogueBold",
     color: "#FE8235",
     marginRight: 4,
   },

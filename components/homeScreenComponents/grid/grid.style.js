@@ -23,8 +23,7 @@ const GridStyles = StyleSheet.create({
   btnText: {
     marginLeft: 15,
     fontSize: 14,
-    fontFamily: "Epelogue",
-    fontWeight: "bold",
+    fontFamily: "EpilogueBold",
     color: "#573926",
   },
   quoteWrapper: {

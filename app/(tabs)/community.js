@@ -35,8 +35,7 @@ const styles = StyleSheet.create({
   },
   pageTitle: {
     fontSize: 18,
-    fontWeight: "bold",
-    fontFamily: "Epelogue",
+    fontFamily: "EpilogueSemiBold",
     lineHeight: 24,
     color: "#371B34",
   },

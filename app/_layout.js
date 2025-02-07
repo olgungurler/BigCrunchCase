@@ -10,8 +10,12 @@ SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const [loaded] = useFonts({
-    Rubik: require("../assets/fonts/Rubik.ttf"),
     Epilogue: require("../assets/fonts/Epilogue.ttf"),
+    EpilogueSemiBold: require("../assets/fonts/Epilogue-SemiBold.ttf"),
+    EpilogueBold: require("../assets/fonts/Epilogue-Bold.ttf"),
+    EpilogueExtraBold: require("../assets/fonts/Epilogue-ExtraBold.ttf"),
+    Rubik: require("../assets/fonts/Rubik.ttf"),
+    RubikMedium: require("../assets/fonts/Rubik-Medium.ttf"),
   });
 
   const pathname = usePathname();

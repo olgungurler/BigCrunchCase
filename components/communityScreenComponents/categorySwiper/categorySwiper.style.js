@@ -24,8 +24,7 @@ const CategorySwiperStyles = StyleSheet.create({
   },
   categoryTitle: {
     fontSize: 14,
-    fontFamily: "Epelogue",
-    fontWeight: "regular",
+    fontFamily: "EpilogueSemiBold",
     lineHeight: 30,
     color: "#8A8A8A",
     paddingHorizontal: 15,
@@ -33,8 +32,7 @@ const CategorySwiperStyles = StyleSheet.create({
   },
   activeCategoryTitle: {
     fontSize: 14,
-    fontFamily: "Epelogue",
-    fontWeight: "regular",
+    fontFamily: "EpilogueSemiBold",
     lineHeight: 30,
     color: "#FBFBFB",
     paddingHorizontal: 15,

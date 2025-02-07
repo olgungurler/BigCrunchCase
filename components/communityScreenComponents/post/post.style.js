@@ -25,8 +25,7 @@ const PostStyles = StyleSheet.create({
   },
   postName: {
     fontSize: 14,
-    fontFamily: "Rubik",
-    fontWeight: "bold",
+    fontFamily: "RubikMedium",
     color: "#573926",
   },
   postDate: {

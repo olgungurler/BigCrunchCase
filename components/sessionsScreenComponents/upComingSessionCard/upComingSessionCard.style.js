@@ -6,8 +6,7 @@ const UpComingSessionCardStyles = StyleSheet.create({
   },
   title: {
     fontSize: 22,
-    fontFamily: "Epelogue",
-    fontWeight: "bold",
+    fontFamily: "EpilogueExtraBold",
     color: "#573926",
     marginBottom: 6,
   },
@@ -20,8 +19,7 @@ const UpComingSessionCardStyles = StyleSheet.create({
   },
   timeText: {
     fontSize: 12,
-    fontFamily: "Rubik",
-    fontWeight: "bold",
+    fontFamily: "RubikMedium",
     color: "#573926",
     marginBottom: 10,
   },
@@ -31,8 +29,7 @@ const UpComingSessionCardStyles = StyleSheet.create({
   },
   joinNowText: {
     fontSize: 16,
-    fontFamily: "Epelogue",
-    fontWeight: "bold",
+    fontFamily: "EpilogueBold",
     color: "#FE8235",
     marginRight: 6,
   },

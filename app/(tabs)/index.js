@@ -14,8 +14,22 @@ export default function HomeScreen() {
     >
       <View style={styles.container}>
         <View style={styles.welcomeMesageTitle}>
-          <Text style={styles.welcomeMessageText}>Good Afternoon,</Text>
-          <Text style={[styles.welcomeMessageText, styles.bold]}>Sarina!</Text>
+          <Text
+            style={[
+              styles.welcomeMessageText,
+              styles.welcomeMessageTextRegular,
+            ]}
+          >
+            Good Afternoon,
+          </Text>
+          <Text
+            style={[
+              styles.welcomeMessageText,
+              styles.welcomeMessageTextSemiBold,
+            ]}
+          >
+            Sarina!
+          </Text>
         </View>
         <Swiper />
         <SessionBookingCard />
@@ -35,16 +49,18 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 25,
   },
-  bold: {
-    fontWeight: "bold",
-  },
   welcomeMesageTitle: {
     paddingBottom: 26,
   },
   welcomeMessageText: {
     fontSize: 26,
-    fontWeight: "regular",
-    fontFamily: "Epelogue",
     lineHeight: 32,
+    color: "#371B34",
+  },
+  welcomeMessageTextRegular: {
+    fontFamily: "Epilogue",
+  },
+  welcomeMessageTextSemiBold: {
+    fontFamily: "EpilogueSemiBold",
   },
 });

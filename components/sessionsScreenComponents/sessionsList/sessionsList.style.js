@@ -42,8 +42,7 @@ const SessionsListStyles = StyleSheet.create({
   },
   userName:{
     fontSize: 14,
-    fontWeight: "bold",
-    fontFamily: "Rubik",
+    fontFamily: "RubikMedium",
     color: "#573926"
   },
   userDegree: {
@@ -85,15 +84,13 @@ const SessionsListStyles = StyleSheet.create({
   coloredBtnText: {
     fontSize: 14,
     lineHeight: 30,
-    fontWeight: "bold",
-    fontFamily: "Epelogue",
+    fontFamily: "EpilogueBold",
     color: "#FBFBFB",
   },
   btnText: {
     fontSize: 14,
     lineHeight: 30,
-    fontWeight: "bold",
-    fontFamily: "Epelogue",
+    fontFamily: "EpilogueBold",
     color: "#FE8235",
   }
 });

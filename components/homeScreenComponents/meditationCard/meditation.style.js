@@ -10,8 +10,7 @@ const MedidationCardStyles = StyleSheet.create({
   },
   title: {
     fontSize: 22,
-    fontFamily: "Epelogue",
-    fontWeight: "bold",
+    fontFamily: "EpilogueExtraBold",
     color: "#FFF",
     marginBottom: 8,
   },
@@ -28,8 +27,7 @@ const MedidationCardStyles = StyleSheet.create({
   },
   buyMoreText: {
     fontSize: 16,
-    fontFamily: "Epelogue",
-    fontWeight: "bold",
+    fontFamily: "EpilogueBold",
     color: "#FFF",
     marginRight: 8,
   },
