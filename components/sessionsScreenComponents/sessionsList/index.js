@@ -88,8 +88,8 @@ const appointments = [
   {
     id: "2",
     active: false,
-    name: "Rahul K",
-    degree: "PhD in Neuroscience",
+    name: "Sahana V",
+    degree: "MSc in Clinical Psychology",
     image: require("../../../assets/images/user2.png"),
     date: "1st April ‘22",
     dateObject: new Date(2022, 3, 1),
@@ -100,8 +100,8 @@ const appointments = [
   {
     id: "3",
     active: false,
-    name: "Rahul K",
-    degree: "PhD in Neuroscience",
+    name: "Sahana V",
+    degree: "MSc in Clinical Psychology",
     image: require("../../../assets/images/user3.png"),
     date: "3rd April ‘22",
     dateObject: new Date(2022, 3, 3),
