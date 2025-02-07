@@ -6,3 +6,7 @@ export { default as Grid } from "./homeScreenComponents/grid";
 export { default as MeditationCard } from "./homeScreenComponents/meditationCard";
 export { default as UpComingSessionCard } from "./sessionsScreenComponents/upComingSessionCard";
 export { default as SessionsList } from "./sessionsScreenComponents/sessionsList";
+export { default as CategorySwiper } from "./communityScreenComponents/categorySwiper";
+export { default as Post } from "./communityScreenComponents/post";
+export { default as PostList } from "./communityScreenComponents/postList";
+export { default as PostCreateBtn } from "./communityScreenComponents/postCreateBtn";

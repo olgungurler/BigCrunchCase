@@ -20,3 +20,7 @@ export { default as PlayIcon } from "./playIcon";
 export { default as ArrowDownIcon } from "./arrowDownIcon";
 export { default as SortIcon } from "./sortIcon";
 export { default as ClockIcon } from "./clockIcon";
+export { default as PenIcon } from "./penIcon";
+export { default as LikeIcon } from "./likeIcon";
+export { default as CommentIcon } from "./commentIcon";
+export { default as ShareIcon } from "./shareIcon";
