@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "case",
-    "slug": "case",
+    "slug": "bigcrunchcase",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FE8235"
-      }
+      },
+      "package": "com.olguncan.bigcrunchcase"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -25,12 +26,21 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d95472e8-da24-4813-bcf5-a1a0529baff6"
+      }
+    },
+    "owner": "olguncan"
   }
 }
