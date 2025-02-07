@@ -31,7 +31,7 @@ const PostStyles = StyleSheet.create({
   postDate: {
     fontSize: 12,
     fontFamily: "Rubik",
-    fontWeight: "regular",
+    fontWeight: "400",
     color: "#707070",
     marginTop: 2,
   },
@@ -41,7 +41,7 @@ const PostStyles = StyleSheet.create({
   postArticleText: {
     fontSize: 13,
     fontFamily: "Rubik",
-    fontWeight: "regular",
+    fontWeight: "400",
     color: "#573926",
   },
   postBtnsWrapper: {

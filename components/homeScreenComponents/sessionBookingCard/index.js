@@ -14,7 +14,7 @@ export default function SessionBookingCard() {
           </Text>
           <Pressable style={styles.bookNowBtn}>
             <Text style={styles.bookNowText}>Book Now</Text>
-            <CalendarIcon />
+            <CalendarIcon style={{ marginTop: 2 }} />
           </Pressable>
         </View>
         <View style={styles.sessionIcon}>

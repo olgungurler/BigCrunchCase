@@ -14,7 +14,7 @@ export default function UpComingSessionCard() {
         <Text style={styles.timeText}>7:30 PM - 8:30 PM</Text>
         <Pressable style={styles.joinNowBtn}>
           <Text style={styles.joinNowText}>Join Now</Text>
-          <PlayIcon />
+          <PlayIcon style={{ marginTop: 2 }} />
         </Pressable>
       </View>
     </Card>
